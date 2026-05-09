@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "ContentCraft — Generate professional content in seconds" },
       { name: "description", content: "AI content generator for South African professionals. LinkedIn posts, marketing emails, blog intros, product descriptions, and social captions in seconds." },
       { name: "author", content: "ContentCraft" },
-      { property: "og:title", content: "ContentCraft — AI Content Generator" },
-      { property: "og:description", content: "Generate professional content for South African professionals in seconds." },
+      { property: "og:title", content: "ContentCraft — Generate professional content in seconds" },
+      { property: "og:description", content: "AI content generator for South African professionals. LinkedIn posts, marketing emails, blog intros, product descriptions, and social captions in seconds." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "ContentCraft — Generate professional content in seconds" },
+      { name: "twitter:description", content: "AI content generator for South African professionals. LinkedIn posts, marketing emails, blog intros, product descriptions, and social captions in seconds." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a06ea869-abc1-45c0-9c31-3114708315c5" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a06ea869-abc1-45c0-9c31-3114708315c5" },
     ],
     links: [
       {
