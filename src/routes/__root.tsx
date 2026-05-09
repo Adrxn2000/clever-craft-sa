@@ -73,14 +73,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "ContentCraft — Generate professional content in seconds" },
+      { name: "description", content: "AI content generator for South African professionals. LinkedIn posts, marketing emails, blog intros, product descriptions, and social captions in seconds." },
+      { name: "author", content: "ContentCraft" },
+      { property: "og:title", content: "ContentCraft — AI Content Generator" },
+      { property: "og:description", content: "Generate professional content for South African professionals in seconds." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
